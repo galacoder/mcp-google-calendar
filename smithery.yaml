@@ -1,0 +1,7 @@
+runtime: "typescript"
+
+# Avvio del server MCP in STDIO (come da README del progetto)
+startCommand:
+  type: "stdio"
+  command: "node"
+  args: ["build/index.js"]
